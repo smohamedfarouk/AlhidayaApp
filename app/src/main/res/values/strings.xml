@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Al-Hidaya Tamil Muslim App</string>
+    <string name="intent_received_string">Got The Intent</string><string name="set_single_alarm">Set Single Alarm</string>
+    <string name="prayer_times">Prayer Times</string>
+    <string name="qibla_direction">Show Qibla</string>
+
+    <string name="announcement_broadcaster">Announce</string>
+    <string name="prayer">Prayer</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="pre_sunnat">Sun</string>
+    <string name="farl">Farl</string>
+    <string name="post_sunnat">Sun</string>
+
+    <string name="fajr">Fajr</string>
+    <string name="fajr_start">2:00</string>
+    <string name="fajr_end">3:00</string>
+    <string name="fajr_bs">2</string>
+    <string name="fajr_farl">2</string>
+    <string name="fajr_as">-</string>
+
+    <string name="dohr">Dohr</string>
+    <string name="dohr_start">5:00</string>
+    <string name="dohr_end">6:00</string>
+    <string name="dohr_bs">4</string>
+    <string name="dohr_farl">4</string>
+    <string name="dohr_as">2</string>
+
+    <string name="asr">Asr</string>
+    <string name="asr_start">5:00</string>
+    <string name="asr_end">6:00</string>
+    <string name="asr_bs">4</string>
+    <string name="asr_farl">4</string>
+    <string name="asr_as">-</string>
+
+    <string name="magrib">Magrib</string>
+    <string name="magrib_start">5:00</string>
+    <string name="magrib_end">6:00</string>
+    <string name="magrib_bs">-</string>
+    <string name="magrib_farl">3</string>
+    <string name="magrib_as">2</string>
+
+    <string name="isha">Isha</string>
+    <string name="isha_start">5:00</string>
+    <string name="isha_end">6:00</string>
+    <string name="isha_bs">4</string>
+    <string name="isha_farl">4</string>
+    <string name="isha_as">2</string>
+  <string name="dua">
+
+      Many Believers say one or both of the following prayers before closing (As Salaamu ‘alaikum wa rahmatulaah):
+
+    Rabbanagh atina fid’dunya hasanatan
+    wa fil’akhirati hasanatan
+    wa qna adhabannar
+
+
+    O Allah, grant us goodness both in this world
+    and in the world to come,
+    and protect us from the pain of the fire.
+
+    Rabbanagh frli wa li walidiyya
+    wa lil mu’minina
+    ywma yaquml hisab
+
+    O my God, forgive my sins
+    and those of my parents and those of the faithful
+    when the day of reckoning shall come.
+
+    After the closing (As Salaamu ‘alaikum wa rahmatulaah) and before greeting other worshippers, the following can be recited eleven times each:
+
+    Subhanallah
+
+    God is Pure.
+
+    Alhamdulillah
+
+    Praise be to God.
+
+    Allahu Akbar
+
+    God is the most Great.
+    </string>
+</resources>

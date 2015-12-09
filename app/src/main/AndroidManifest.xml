@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vandy.mooc"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/newlogo"
+        android:label="@string/app_name">
+        <activity
+            android:name="vandy.mooc.view.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="vandy.mooc.view.PrayerTimesActivity"
+            android:label="@string/prayer_times"></activity>
+        <activity
+            android:name="vandy.mooc.view.QiblaDirectionActivity"
+            android:label="@string/qibla_direction"></activity>
+        <activity
+            android:name="vandy.mooc.view.DisplayImageActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="vandy.mooc.view.DisplayAnnouncementActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="vandy.mooc.view.AnnouncementBroadcaster"
+            android:label="@string/app_name"></activity>
+
+        <receiver android:name="vandy.mooc.view.AlarmNotificationReceiver"></receiver>
+
+        <receiver android:name="vandy.mooc.view.AnnouncementReceiver">
+            <intent-filter>
+                <action android:name="com.tutorialspoint.CUSTOM_INTENT"></action>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

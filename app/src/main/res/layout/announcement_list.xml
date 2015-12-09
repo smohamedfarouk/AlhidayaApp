@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip">
+
+
+    <TextView
+        android:id="@+id/messageidlist"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/messagetimelist"
+        android:layout_width="148dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView"
+        android:layout_toRightOf="@id/messageidlist"
+        android:textColor="@color/black"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/messagetitlelist"
+        android:layout_width="148dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView"
+        android:layout_toRightOf="@id/messagetimelist"
+        android:textColor="@color/black"
+        android:textSize="50px" />
+
+    <!--
+        <TextView
+            android:id="@+id/messageidlist"
+            android:layout_width="25dp"
+            android:layout_height="26dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="30px" />
+
+        <TextView
+            android:id="@+id/messagetimelist"
+            android:layout_width="25dp"
+            android:layout_height="26dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/messageidlist"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="30px" />
+
+        <TextView
+            android:id="@+id/messagetitlelist"
+            android:layout_width="25dp"
+            android:layout_height="26dip"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_toRightOf="@id/messagetimelist"
+            android:gravity="center_vertical"
+            android:text="Example application"
+            android:textColor="@color/black"
+            android:textSize="30px" />
+    -->
+</RelativeLayout> 

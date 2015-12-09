@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:stretchColumns="1" android:background="@color/orange">
+
+    <TableRow>
+        <!-- start in column 1 -->
+        <TextView
+            android:id="@+id/prayer"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/prayer"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/start"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/end"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/pre_sunnat"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/farl"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="@string/post_sunnat"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <!-- start in column 1 -->
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/fajr"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fajr_start"
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/fajr_start"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/fajr_end"
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/fajr_end"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/fajr_bs"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/fajr_farl"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/fajr_as"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <!-- start in column 1 -->
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/dohr"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dohr_start"
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/dohr_start"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/dohr_end"
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/dohr_end"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/dohr_bs"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/dohr_farl"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/dohr_as"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <!-- start in column 1 -->
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/asr"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/asr_start"
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/asr_start"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/asr_end"
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/asr_end"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/asr_bs"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:textStyle="bold"
+            android:text="@string/asr_farl"
+            android:textSize="24sp" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/asr_as"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <!-- start in column 1 -->
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/magrib"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/magrib_start"
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/magrib_start"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/magrib_end"
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/magrib_end"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/magrib_bs"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:textStyle="bold"
+            android:text="@string/magrib_farl"
+            android:textSize="24sp" />
+
+        <TextView
+
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/magrib_as"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <!-- start in column 1 -->
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/isha"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isha_start"
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/isha_start"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/isha_end"
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/isha_end"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/isha_bs"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_column="1"
+
+            android:gravity="center"
+            android:padding="3dip"
+            android:textStyle="bold"
+            android:text="@string/isha_farl"
+            android:textSize="24sp" />
+
+        <TextView
+
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/isha_as"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <!--  <TextView
+          android:id="@+id/dua_id"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:text="@string/dua"
+          />
+  -->
+
+    <TextView
+        android:id="@+id/dua_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:padding="3dip"
+        android:text="@string/dua"
+        android:scrollbars="vertical"
+        android:textSize="24sp" />
+
+  <!--   <ScrollView
+          android:id="@+id/SCROLLER_ID"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:scrollbars="vertical"
+          android:fillViewport="true">
+
+
+      </ScrollView>-->
+</TableLayout>
